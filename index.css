@@ -5,8 +5,17 @@ body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell;
     font-weight: bold;
     text-align: center;
+    height: 100vh;
 }
 
+.container {
+    background-color: rgba(255, 0, 255, 0.15);
+    max-width: 30%;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+ 
+}
 p {
     color: white;
     font-size: 20px;
@@ -25,7 +34,7 @@ h2 {
 }
 
 button {
-    border: none;
+    border: 1px solid white;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
